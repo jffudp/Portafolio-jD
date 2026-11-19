@@ -2,3 +2,6 @@ const menuButton=document.querySelector('.menu-button');const menu=document.quer
 
 // Adaptación sin dependencias del efecto "Magnetic Button" de 21st.dev (licencia MIT).
 document.querySelectorAll('.round-link').forEach(link=>{link.addEventListener('pointermove',event=>{const box=link.getBoundingClientRect();const x=(event.clientX-box.left-box.width/2)*.18;const y=(event.clientY-box.top-box.height/2)*.18;link.style.transform=`translate(${x}px, ${y}px) rotate(8deg)`;});link.addEventListener('pointerleave',()=>{link.style.transform='';});});
+
+// Estela de cursor: solo para puntero fino y con respeto a reduced motion.
+if(matchMedia('(pointer:fine) and (prefers-reduced-motion:no-preference)').matches){const trail=[];let lastX=0,lastY=0,lastTime=0;document.addEventListener('pointermove',event=>{const now=performance.now();if(Math.hypot(event.clientX-lastX,event.clientY-lastY)<18||now-lastTime<35)return;const dot=document.createElement('i');dot.className='cursor-trail';dot.style.left=`${event.clientX}px`;dot.style.top=`${event.clientY}px`;dot.style.setProperty('--trail-rotate',`${Math.random()*90-45}deg`);document.body.append(dot);trail.push(dot);if(trail.length>14)trail.shift().remove();lastX=event.clientX;lastY=event.clientY;lastTime=now;window.setTimeout(()=>{dot.remove();const index=trail.indexOf(dot);if(index>-1)trail.splice(index,1);},720);});}
