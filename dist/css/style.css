@@ -5,8 +5,8 @@
 .cursor-water{--water-x:-500px;--water-y:-500px;--water-angle:0rad;position:fixed;z-index:9998;inset:0;pointer-events:none;opacity:.9;mix-blend-mode:soft-light;background:radial-gradient(ellipse 145px 64px at var(--water-x) var(--water-y),rgba(255,255,255,.5),transparent 26%),repeating-radial-gradient(ellipse 92px 34px at var(--water-x) var(--water-y),transparent 0 9px,rgba(215,255,63,.38) 10px 12px,transparent 13px 21px);mask-image:radial-gradient(ellipse 190px 112px at var(--water-x) var(--water-y),#000 0 45%,transparent 82%);backdrop-filter:url(#water-displace) blur(1.5px) contrast(1.7) saturate(1.8) brightness(1.16);transition:background-position .09s ease;transform:rotate(var(--water-angle));transform-origin:var(--water-x) var(--water-y)}
 .cursor-water{display:none!important}.hero h1,.orbit,.project-item{transition:transform .32s cubic-bezier(.12,.75,.22,1)}.project-item{will-change:transform}
 
-/* Selección: una misma familia cromática nacida del naranja principal. */
-:root{--orange-light:#ffd2c4;--orange-deep:#9e341e;--orange-soft:#ffad8f}
-.project-a .project-visual{background:var(--orange-light)}
-.project-b .project-visual{background:var(--orange)}
-.project-c .project-visual{background:var(--orange-deep);color:var(--orange-light)}
+/* Selección: una misma familia cromática en tonos morados. */
+:root{--purple-light:#e4d5ff;--purple:#8d55d9;--purple-deep:#3c1d67}
+.project-a .project-visual{background:var(--purple-light)}
+.project-b .project-visual{background:var(--purple);color:var(--paper)}
+.project-c .project-visual{background:var(--purple-deep);color:var(--purple-light)}
