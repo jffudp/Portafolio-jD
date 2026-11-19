@@ -25,3 +25,13 @@ body{background:#e7daf5}
 .selected{background:#d9c5ef}
 .page{background:#eee4f8}
 .project-page{background:#f1e8fb}
+
+/* Limpieza final: las superficies dejan atrás los colores anteriores. */
+:root{--purple-mist:#f5efff;--purple-orchid:#b995e8;--purple-vivid:#6f42b7}
+.round-link:hover{background:var(--purple-orchid)}
+.portrait{background:var(--purple-vivid);color:var(--purple-mist)}
+.contact-block{background:var(--purple-orchid)}
+.archive>a:hover{background:#d7c1ff}
+.cover-dos{background:var(--purple-vivid);color:var(--purple-mist)}
+.project-links a:hover{background:var(--purple-vivid)}
+.closing a:hover{color:var(--purple-light)}
