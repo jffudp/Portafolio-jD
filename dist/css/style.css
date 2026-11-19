@@ -17,3 +17,11 @@
 .cover-tocar{background:#bfa1ef}.cover-personal{background:#e7daf9}
 .video-placeholder{background:#e9def7}
 footer{border-color:#533776}
+
+/* Morados visibles a lo largo de todas las rutas del portafolio. */
+body{background:#e7daf5}
+.hero{background:linear-gradient(135deg,#eadfff 0%,#c7a3ec 100%)}
+.manifesto{background:#f5efff}
+.selected{background:#d9c5ef}
+.page{background:#eee4f8}
+.project-page{background:#f1e8fb}
