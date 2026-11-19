@@ -10,3 +10,10 @@
 .project-a .project-visual{background:var(--purple-light)}
 .project-b .project-visual{background:var(--purple);color:var(--paper)}
 .project-c .project-visual{background:var(--purple-deep);color:var(--purple-light)}
+
+/* Sistema general: morados como base, naranja como acento y negro estructural. */
+:root{--paper:#f3eefc;--acid:#c9adff;--line:rgba(60,29,103,.24)}
+.site-header{background:rgba(243,238,252,.88)}
+.cover-tocar{background:#bfa1ef}.cover-personal{background:#e7daf9}
+.video-placeholder{background:#e9def7}
+footer{border-color:#533776}
