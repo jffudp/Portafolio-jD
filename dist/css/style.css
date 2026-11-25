@@ -36,6 +36,20 @@ body{background:#e7daf5}
 .project-links a:hover{background:var(--purple-vivid)}
 .closing a:hover{color:var(--purple-light)}
 
+/* ══ Card swap ════════════════════════════════════════════
+   Adaptación del componente CardSwap de Bencho (MIT — bencho.dev/licence).
+   La pila usa la identidad del portafolio: tinta para el texto, lavanda
+   para la superficie y la fuente monoespaciada para las etiquetas. */
+.card-swap-section{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:center;margin:6vw 0 2vw;padding:3vw 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--line)}
+.card-swap-copy{max-width:28rem}.card-swap-copy h2{margin:1rem 0 1.4rem;font-size:clamp(2.6rem,6vw,6rem)}.card-swap-copy p:not(.eyebrow){line-height:1.55;max-width:30rem}
+.csw{--fill-on:var(--ink);--fill-slab:var(--purple-light);position:relative;width:360px;height:350px;user-select:none;-webkit-user-select:none;justify-self:center}
+.csw-stage{position:absolute;left:30px;bottom:24px;width:196px;height:246px;perspective:1000px;perspective-origin:150px 95px}
+/* A card is a photo in a thin slab frame. No shadows: depth is the stack. */
+.csw-card{position:absolute;inset:0;padding:3px;border-radius:20px;background:var(--fill-slab);color:var(--fill-on);box-shadow:0 0 0 1px color-mix(in srgb,var(--fill-on) 12%,transparent);transform:var(--t);transition:transform 600ms cubic-bezier(.22,1,.36,1);backface-visibility:hidden;outline:none}
+.csw-card[data-front]{cursor:grab;touch-action:none}.csw-card[data-front]:active{cursor:grabbing}.csw-card:focus-visible{box-shadow:0 0 0 3px var(--purple-vivid),0 0 0 5px var(--purple-light)}
+.csw-photo{display:block;width:100%;height:100%;object-fit:cover;border-radius:17px;pointer-events:none}.csw-tag{position:absolute;left:14px;bottom:14px;padding:6px 12px;border-radius:999px;background:var(--fill-slab);font:500 13px var(--mono);pointer-events:none}
+@media(max-width:700px){.card-swap-section{grid-template-columns:1fr;margin:16vw 0 8vw;padding:8vw 0;gap:1rem}.csw{transform:scale(.88);transform-origin:center top;margin-bottom:-3rem}}
+
 /* Galerías editoriales: una lectura visual, directa y navegable. */
 .archive-featured{background:linear-gradient(90deg,rgba(111,66,183,.08),transparent);}
 .gallery-block{margin-top:6vw;padding:3vw 0 1vw;border-top:1px solid var(--ink)}
