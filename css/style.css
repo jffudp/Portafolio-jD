@@ -51,6 +51,11 @@ body{background:#e7daf5}
 .gallery-prev{left:1rem}.gallery-next{right:1rem}
 .gallery-caption{margin:1rem 0 1.3rem;color:var(--purple-deep)}
 .gallery-hint{margin:-.7rem 0 1.2rem;color:var(--purple-vivid);font:.64rem var(--mono);text-transform:uppercase;letter-spacing:.03em}
+.copy-email{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;width:100%;border:0;padding:0;background:none;color:inherit;text-align:left;cursor:pointer;font:inherit}
+.copy-email>span{font-size:clamp(2rem,6vw,6rem);letter-spacing:-.08em}
+.copy-email small{font:500 .72rem var(--mono);text-transform:uppercase;border-bottom:1px solid currentColor;padding-bottom:.3rem;white-space:nowrap}
+.copy-email:hover small{color:var(--purple-vivid)}
+.copy-email-footer{width:auto;color:inherit}.copy-email-footer>span{font:500 .75rem var(--mono);letter-spacing:0}.copy-email-footer small{font-size:.62rem}
 .gallery-thumbs{display:grid;grid-template-columns:repeat(8,1fr);gap:.5rem;overflow-x:auto;padding-bottom:.4rem}
 .gallery-thumb{border:1px solid transparent;background:var(--purple-light);padding:0;aspect-ratio:1;overflow:hidden;cursor:pointer;opacity:.62;transition:opacity .2s,border-color .2s,transform .2s}
 .gallery-thumb:hover,.gallery-thumb.is-active{opacity:1;border-color:var(--purple-vivid);transform:translateY(-2px)}

@@ -3,6 +3,8 @@ const menuButton=document.querySelector('.menu-button');const menu=document.quer
 // Monograma consistente en todas las páginas del portafolio.
 document.querySelectorAll('.brand').forEach(brand=>{if(brand.firstChild)brand.firstChild.nodeValue='JD';});
 
+document.querySelectorAll('[data-copy-email]').forEach(button=>{button.addEventListener('click',async()=>{const email=button.dataset.copyEmail;try{await navigator.clipboard.writeText(email);}catch{const field=document.createElement('textarea');field.value=email;document.body.appendChild(field);field.select();document.execCommand('copy');field.remove();}const feedback=button.querySelector('[data-copy-feedback]');if(feedback){feedback.textContent='Copiado';setTimeout(()=>{feedback.textContent='Copiar';},1600);}});});
+
 // Adaptación sin dependencias del efecto "Magnetic Button" de 21st.dev (licencia MIT).
 document.querySelectorAll('.round-link').forEach(link=>{link.addEventListener('pointermove',event=>{const box=link.getBoundingClientRect();const x=(event.clientX-box.left-box.width/2)*.18;const y=(event.clientY-box.top-box.height/2)*.18;link.style.transform=`translate(${x}px, ${y}px) rotate(8deg)`;});link.addEventListener('pointerleave',()=>{link.style.transform='';});});
 
