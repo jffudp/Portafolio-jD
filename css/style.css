@@ -35,6 +35,7 @@ body{background:#e7daf5}
 .cover-dos{background:var(--purple-vivid);color:var(--purple-mist)}
 .project-links a:hover{background:var(--purple-vivid)}
 .closing a:hover{color:var(--purple-light)}
+.drawing-cursor-canvas{position:fixed;inset:0;z-index:9990;width:100%;height:100%;pointer-events:none}
 
 /* ══ Card swap ════════════════════════════════════════════
    Adaptación del componente CardSwap de Bencho (MIT — bencho.dev/licence).

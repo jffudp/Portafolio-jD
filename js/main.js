@@ -1,5 +1,7 @@
 const menuButton=document.querySelector('.menu-button');const menu=document.querySelector('nav');if(menuButton){menuButton.addEventListener('click',()=>{const open=menu.classList.toggle('open');menuButton.setAttribute('aria-expanded',open);menuButton.textContent=open?'Cerrar':'Menú';});}
 
+if(!document.querySelector('script[data-drawing-cursor]')){const drawingScript=document.createElement('script');drawingScript.src='js/drawing-cursor.js';drawingScript.dataset.drawingCursor='true';document.body.appendChild(drawingScript);}
+
 // Monograma consistente en todas las páginas del portafolio.
 document.querySelectorAll('.brand').forEach(brand=>{if(brand.firstChild)brand.firstChild.nodeValue='JD';});
 

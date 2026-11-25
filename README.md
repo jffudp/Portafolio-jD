@@ -42,6 +42,7 @@ assets/                    fotos, videos, CV y recursos propios
 - Tipografías: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) y [DM Mono](https://fonts.google.com/specimen/DM+Mono), disponibles en Google Fonts bajo SIL Open Font License.
 - El menú móvil fue implementado con JavaScript propio.
 - Botón magnético de la landing: adaptación sin dependencias del componente [Magnetic Button de Mohammad Shehadeh en 21st.dev](https://21st.dev/community/components), publicado bajo licencia MIT. Se modificó para funcionar en HTML/CSS/JavaScript puro y para integrarse al sistema gráfico del sitio.
+- Efecto de cursor dibujado: adaptación estática del componente [Drawing Cursor de Skiper UI / Skiper59](https://skiper-ui.com/v1/skiper59), bajo licencia MIT. Se modificó para funcionar con canvas, HTML, CSS y JavaScript sin React.
 
 ## Reflexión del semestre
 
