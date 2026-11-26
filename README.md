@@ -4,7 +4,7 @@ Este repositorio contiene mi portafolio personal de diseño. La web reúne proye
 
 ## Demo
 
-[Abrir el portafolio publicado](https://portafolio-diseno-vista-previa-2026.jefferimd1501.chatgpt.site)
+[Abrir el portafolio publicado](https://jffudp.github.io/Portafolio-jD/)
 
 La versión publicada está pensada para abrirse desde teléfono, tablet o computador. La carpeta `dist/` contiene los archivos estáticos que se sirven en la publicación.
 
