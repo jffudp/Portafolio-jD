@@ -2,11 +2,6 @@
 
 Este repositorio contiene mi portafolio personal de diseño. La web reúne proyectos editoriales, gráficos, visuales y digitales en un recorrido que parte por una presentación breve, continúa con un perfil personal y termina en páginas independientes para cada trabajo.
 
-## Demo
-
-[Abrir el portafolio publicado](https://portafolio-diseno-vista-previa-2026.jefferimd1501.chatgpt.site)
-
-La versión publicada está pensada para abrirse desde teléfono, tablet o computador. La carpeta `dist/` contiene los archivos estáticos que se sirven en la publicación.
 
 ## 1. Concepto y recorrido
 
