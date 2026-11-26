@@ -126,12 +126,15 @@ La IA se utilizó como apoyo técnico para explorar alternativas de estructura, 
 
 ## 9. Reflexión personal del semestre
 
-Esta sección debe escribirse con las palabras de Jeffer Diaz, sin delegar su redacción a IA. Para completarla, desarrolla:
+Durante este semestre pude profundizar mis conocimientos con este ramo y comprender cómo esto puede complementar el diseño gráfico, editorial y visual. Aprendí que diseñar para la web no consiste únicamente en crear algo visualmente atractivo, sino también en construir una experiencia funcional, interactiva y fácil de recorrer.
 
-1. Qué aprendiste sobre diseño, código e interacción.
-2. Qué desafío fue más difícil y cómo lo resolviste.
-3. Cómo cambió tu forma de pensar una experiencia digital.
-4. Qué te gustaría seguir explorando después del ramo.
+El desarrollo de mi portafolio me permitió aplicar los conocimientos adquiridos en HTML, CSS y JavaScript, además de experimentar con animaciones, videos, imágenes interactivas y la publicación de sitios web mediante GitHub Pages.
+
+Los desafíos que se presentaron durante el ramo fueron entretenidos y motivadores. Aunque en algunas ocasiones tuve dificultades técnicas, encontrar soluciones, corregir errores y experimentar con distintas alternativas hizo que el proceso de aprendizaje fuera mucho más interesante. También pude desarrollar una mayor autonomía y confianza al momento de programar.
+
+El curso me permitió ampliar mi perspectiva como diseñador, entendiendo que la programación es una herramienta que ofrece nuevas posibilidades creativas y que permite llevar nuestras ideas más allá de una propuesta visual estática.
+
+Considero que este ramo fue de gran utilidad para mi formación. Los conocimientos adquiridos no solamente me sirvieron para desarrollar mi portafolio, sino que también serán herramientas que seguiré utilizando en futuros proyectos académicos, personales y profesionales. Me gustaría continuar profundizando en la programación y explorar nuevas maneras de integrarla en mis procesos de diseño. En general, fue una experiencia enriquecedora que despertó mi interés por seguir aprendiendo y experimentando con el diseño digital.
 
 ## Uso local
 
